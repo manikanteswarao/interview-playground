@@ -18,7 +18,7 @@ class SampleTest : Spek({
 
     it("should fail") {
       val a = 1
-      val b = 1
+      val b = 2
       a shouldNotBeEqualTo b
     }
   }

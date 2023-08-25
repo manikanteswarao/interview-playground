@@ -27,5 +27,13 @@ object Libs {
     const val spekRunnerJunit5 = "$spek2Group:spek-runner-junit5:$spek2Version"
   }
 
+  object Dagger {
+    private const val group = "com.google.dagger"
+    private const val version = "2.27"
+
+    const val dagger = "$group:dagger:$version"
+    const val compiler = "$group:dagger-compiler:$version"
+  }
+
 
 }
